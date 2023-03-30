@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import SinglePost from '../SinglePost/SinglePost';
 
 const PostContainer = () => {
 
@@ -18,19 +19,19 @@ const PostContainer = () => {
         }
 
     },[])
-    console.log(posts);
+
 
     return (
         <>
 
-            <div className="mt-2 flex gap-2 flex-col md:flex-row">
+            <div className="mt-2 flex gap-2 flex-col md:flex-row p-2">
 
-                <div className="bg-orange-300 md:w-2/3">
+                <div className="md:w-2/3">
 
-                    <div className="">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center">
 
                         {
-                            posts.map(post=> <h1>hello</h1>)
+                            posts.map(post=> <SinglePost post={post} key={post.id}></SinglePost>)
                         }
 
                     </div>
