@@ -32,19 +32,23 @@ const Blog = () => {
 
                 <div tabIndex={2} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-2xl font-bold">
-                        Focus me to see content
+                        Purpose of useEffect other than fetching data.
                     </div>
-                    <div className="collapse-content"> 
-                        <p>tabIndex={2} attribute is necessary to make the div focusable</p>
+                    <div className="collapse-content text-xl"> 
+                        <p>
+                            useEffect is a powerfull react hook which can be used for various types of work not only fetching data. It is a help to perform side effect. also by using useEffect we can update DOM easily. Also we can do conditional randaring by using useEffect. Also we can trigger various task depends on condition that means second parameter of useEffect. so we  can say it has many more Purpose to use not only fetching.
+                        </p>
                     </div>
                 </div>
 
                 <div tabIndex={3} className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
                     <div className="collapse-title text-2xl font-bold">
-                        Focus me to see content
+                        How Does React work?
                     </div>
-                    <div className="collapse-content"> 
-                        <p>tabIndex={3} attribute is necessary to make the div focusable</p>
+                    <div className="collapse-content text-xl"> 
+                        <p>
+                            React split the website into different different component. Where Component is nothing but function. It also has a vertual dom at first it do update on virtual DOM and by using diff algorithm it compare old vartual DOM and  new vertual dom and agfter detecting which component is changed it do update original DOM and  because of that react is more efficient and more effective. React use declarative approach for event handeling. this is how react works.
+                        </p>
                     </div>
                 </div>
 
