@@ -2,8 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <div className='md:container md:mx-auto'>
-            
+        <>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -36,15 +35,17 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                    <div className="w-10 rounded-full">
-                    <img src="https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img4.png?raw=true" />
-                    </div>
-                </label>
+                    <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                        <div className="w-10 rounded-full">
+                        <img src="https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img4.png?raw=true" />
+                        </div>
+                    </label>
                 </div>
             </div>
+
             <hr />
-        </div>
+
+        </>
     );
 };
 
