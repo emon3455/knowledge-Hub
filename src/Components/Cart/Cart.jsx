@@ -15,8 +15,8 @@ const Cart = (props) => {
                 <h2 className='text-xl font-semibold'>Bookmarked Blogs: {bookMarked.length}</h2>
                 <div className="">
                     {
-                        bookMarked.map(mark=>{
-                            return <div className='bg-white  rounded-xl'>
+                        bookMarked.map((mark,index)=>{
+                            return <div key={index} className='bg-white  rounded-xl'>
 
                                     <div className='card mb-2 shadow-2xl'>
 

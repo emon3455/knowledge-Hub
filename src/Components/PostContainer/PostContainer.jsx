@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import SinglePost from '../SinglePost/SinglePost';
+import { ToastContainer, toast } from 'react-toastify';
 
 const PostContainer = () => {
 
@@ -14,8 +15,16 @@ const PostContainer = () => {
 
     const handleBookMarked=(mark)=>{
 
-        const newBooked = [...bookMark, mark];
-        setBookMark(newBooked);
+        const result = bookMark.includes(mark);
+        if(result){
+            toast("Already BookMarked!");
+        }
+        else{
+            const newBooked = [...bookMark, mark];
+            setBookMark(newBooked);
+        }
+
+        
         
     }
 
