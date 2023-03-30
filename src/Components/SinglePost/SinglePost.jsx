@@ -3,6 +3,7 @@ import React from 'react';
 const SinglePost = (props) => {
 
     const {id , author, title, time, banner, date,logo} = props.post
+    const handleTime = props.handleTime;
 
     return (
         <div>
@@ -31,7 +32,7 @@ const SinglePost = (props) => {
                         </div>
                         <div className="">
                             <h2>
-                                {time} Min Read <span className='cursor-pointer fa-xl '> <i className="fa-regular fa-bookmark"></i> </span>
+                                {time} Min Read <span  className='cursor-pointer fa-lg bg-violet-600 text-white px-2 py-1 rounded-md hover:bg-gray-500 transition-all'> <i className="fa-regular fa-bookmark"></i> </span>
                             </h2>
                         </div>
 
@@ -40,7 +41,7 @@ const SinglePost = (props) => {
                     <h2 className="card-title">{title}</h2>
                     <p className='text-gray-500'>#BlogPost #Writing</p>
                     <div className="card-actions justify-start">
-                        <a className="text-violet-500 text-sm font-semibold cursor-pointer underline underline-offset-1">Mark As Read</a>
+                        <a onClick={()=> handleTime(time)} className="text-violet-500 text-sm font-semibold cursor-pointer underline underline-offset-1">Mark As Read</a>
                     </div>
 
                 </div>
