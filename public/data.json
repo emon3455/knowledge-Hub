@@ -1,0 +1,38 @@
+[
+    {
+      "id": "6425c2ded0b14d4571cf7e7a",
+      "author": "Garcia Valentine",
+      "title": "Elnora",
+      "time": 2,
+      "banner": "https://github.com/emon3455/demo-picture/blob/main/picture/Banner/bnr1.jpg",
+      "logo": "https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img1.png",
+      "date": "{{integer(0, 20)}.{integer(0, 10)}.{integer(0, 12)}}"
+    },
+    {
+      "id": "6425c2de9861bbebec884235",
+      "author": "Lara Long",
+      "title": "Hancock",
+      "time": 13,
+      "banner": "https://github.com/emon3455/demo-picture/blob/main/picture/Banner/bnr2.jpg",
+      "logo": "https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img2.png",
+      "date": "{{integer(0, 20)}.{integer(0, 10)}.{integer(0, 12)}}"
+    },
+    {
+      "id": "6425c2dedcab6fadd3cede34",
+      "author": "Rasmussen Reeves",
+      "title": "Kendra",
+      "time": 11,
+      "banner": "https://github.com/emon3455/demo-picture/blob/main/picture/Banner/bnr3.jpg",
+      "logo": "https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img3.png",
+      "date": "{{integer(0, 20)}.{integer(0, 10)}.{integer(0, 12)}}"
+    },
+    {
+      "id": "6425c2de7dd238f2e19b8e6e",
+      "author": "Kayla Dunlap",
+      "title": "Rowland",
+      "time": 20,
+      "banner": "https://github.com/emon3455/demo-picture/blob/main/picture/Banner/bnr4.jpg",
+      "logo": "https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img4.png",
+      "date": "{{integer(0, 20)}.{integer(0, 10)}.{integer(0, 12)}}"
+    }
+]
