@@ -6,10 +6,19 @@ const PostContainer = () => {
 
     const [posts,setPosts] = useState([]);
     const [time,setTime] = useState(0);
+    const [bookMark , setBookMark] = useState([])
 
     const handleTime=(tm)=>{
         setTime(time+tm);
     }
+
+    const handleBookMarked=(mark)=>{
+
+        const newBooked = [...bookMark, mark];
+        setBookMark(newBooked);
+        
+    }
+
 
     useEffect(()=>{
         try{
@@ -34,11 +43,15 @@ const PostContainer = () => {
 
                         {
                             posts.map(post=> <SinglePost
+
                                 post={post}
                                 key={post.id}
                                 handleTime={handleTime}
-                                
-                                ></SinglePost>)
+                                handleBookMarked={handleBookMarked}
+
+                                >
+
+                            </SinglePost>)
                         }
 
                     </div>
@@ -47,7 +60,7 @@ const PostContainer = () => {
 
                 <div className=" md:w-1/3">
 
-                    <Cart time={time}></Cart>
+                    <Cart time={time} bookMarked={bookMark}></Cart>
 
                 </div>
 

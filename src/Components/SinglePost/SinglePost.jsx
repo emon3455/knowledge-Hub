@@ -2,8 +2,10 @@ import React from 'react';
 
 const SinglePost = (props) => {
 
-    const {id , author, title, time, banner, date,logo} = props.post
+    const {id , author, title, time, banner, date,logo} = props.post;
+
     const handleTime = props.handleTime;
+    const handleBookMarked = props.handleBookMarked;
 
     return (
         <div>
@@ -32,7 +34,7 @@ const SinglePost = (props) => {
                         </div>
                         <div className="">
                             <h2>
-                                {time} Min Read <span  className='cursor-pointer fa-lg bg-violet-600 text-white px-2 py-1 rounded-md hover:bg-gray-500 transition-all'> <i className="fa-regular fa-bookmark"></i> </span>
+                                {time} Min Read <span onClick={()=>handleBookMarked(title)} className='cursor-pointer fa-lg bg-violet-600 text-white px-2 py-1 rounded-md hover:bg-gray-500 transition-all'> <i className="fa-regular fa-bookmark"></i> </span>
                             </h2>
                         </div>
 
