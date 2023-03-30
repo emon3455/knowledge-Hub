@@ -38,8 +38,9 @@ const SinglePost = (props) => {
                     </div>
 
                     <h2 className="card-title">{title}</h2>
+                    <p className='text-gray-500'>#BlogPost #Writing</p>
                     <div className="card-actions justify-start">
-                    <button className="btn btn-primary">Buy Now</button>
+                        <a className="text-violet-500 text-sm font-semibold cursor-pointer underline underline-offset-1">Mark As Read</a>
                     </div>
 
                 </div>
