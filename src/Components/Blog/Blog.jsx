@@ -36,7 +36,7 @@ const Blog = () => {
                     </div>
                     <div className="collapse-content text-xl"> 
                         <p>
-                            useEffect is a powerfull react hook which can be used for various types of work not only fetching data. It is a help to perform side effect. also by using useEffect we can update DOM easily. Also we can do conditional randaring by using useEffect. Also we can trigger various task depends on condition that means second parameter of useEffect. so we  can say it has many more Purpose to use not only fetching.
+                            useEffect is a powerfull react hook which can be used for various types of work not only fetching data. It help to perform side effect. also by using useEffect we can update DOM easily. Also we can do conditional randaring by using useEffect. Also we can trigger various task depends on condition that means second parameter of useEffect. so we  can say it has many more Purpose to use not only fetching.
                         </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Blog = () => {
                     </div>
                     <div className="collapse-content text-xl"> 
                         <p>
-                            React split the website into different different component. Where Component is nothing but function. It also has a vertual dom at first it do update on virtual DOM and by using diff algorithm it compare old vartual DOM and  new vertual dom and agfter detecting which component is changed it do update original DOM and  because of that react is more efficient and more effective. React use declarative approach for event handeling. this is how react works.
+                            React split the website into different different component. Where Component is nothing but function. It also has a vertual dom at first it do update on virtual DOM and by using diff algorithm it compare old vartual DOM and  new vertual dom and after detecting which component is changed it do update original DOM and  because of that react is more efficient and more effective. React use declarative approach for event handeling. this is how react works.
                         </p>
                     </div>
                 </div>

@@ -41,7 +41,7 @@ const PostContainer = () => {
     return (
         <>
 
-            <div className="my-2 flex gap-2 flex-col md:flex-row p-2">
+            <div className="my-2 flex gap-4 flex-col md:flex-row p-2">
 
                 <div className="md:w-2/3">
 
