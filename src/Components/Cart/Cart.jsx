@@ -5,13 +5,13 @@ const Cart = (props) => {
     const bookMarked = props.bookMarked;
 
     return (
-        <div className='space-y-2'>
+        <div className='space-y-2 sticky top-0'>
 
-            <div className=" bg-violet-100 rounded-md border-2 border-indigo-300 text-center text-xl font-semibold text-violet-500">
+            <div className=" bg-violet-100 p-2 rounded-md border-2 border-indigo-300 text-center text-xl font-semibold text-violet-500">
                 <h2>Spent Time On Read: {props.time} Min</h2>
             </div>
 
-            <div className="bg-gray-300 p-2 rounded-md space-y-3">
+            <div className="bg-gray-200 p-2 rounded-md space-y-3">
                 <h2 className='text-xl font-semibold'>Bookmarked Blogs: {bookMarked.length}</h2>
                 <div className="">
                     {
