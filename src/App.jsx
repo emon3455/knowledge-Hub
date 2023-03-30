@@ -4,6 +4,7 @@ import Header from './Components/Header/Header'
 import PostContainer from './Components/PostContainer/PostContainer'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
 
          <ToastContainer></ToastContainer>
 
-         
+         <Blog></Blog>
 
     </div>
   )

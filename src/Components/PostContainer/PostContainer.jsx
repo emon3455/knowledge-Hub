@@ -17,15 +17,12 @@ const PostContainer = () => {
 
         const result = bookMark.includes(mark);
         if(result){
-            toast("Already BookMarked!");
+            toast("You Have Already Bookmarked This Blog!");
         }
         else{
             const newBooked = [...bookMark, mark];
             setBookMark(newBooked);
-        }
-
-        
-        
+        }      
     }
 
 

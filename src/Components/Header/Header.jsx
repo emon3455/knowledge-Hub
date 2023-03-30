@@ -22,19 +22,20 @@ const Header = () => {
                     </div>
                     <a className="btn btn-ghost normal-case text-xl">Knowledge Hub</a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                    <li className='font-semibold'><a>Home</a></li>
-                    <li className='font-semibold' tabIndex={0}>
-                        <a>
-                        Blogs
-                        </a>
-                        
-                    </li>
-                    <li className='font-semibold'><a>Contact</a></li>
-                    </ul>
-                </div>
+                
                 <div className="navbar-end">
+                    <div className="hidden lg:flex">
+                        <ul className="menu menu-horizontal px-1">
+                        <li className='font-semibold'><a>Home</a></li>
+                        <li className='font-semibold' tabIndex={0}>
+                            <a>
+                            Blogs
+                            </a>
+                            
+                        </li>
+                        <li className='font-semibold'><a>Contact</a></li>
+                        </ul>
+                    </div>
                     <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
                         <img src="https://github.com/emon3455/demo-picture/blob/main/picture/Logo/img4.png?raw=true" />
