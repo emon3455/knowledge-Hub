@@ -54,7 +54,6 @@ const PostContainer = () => {
                                 key={post.id}
                                 handleTime={handleTime}
                                 handleBookMarked={handleBookMarked}
-
                                 >
 
                             </SinglePost>)
@@ -69,7 +68,6 @@ const PostContainer = () => {
                     <Cart time={time} bookMarked={bookMark}></Cart>
 
                 </div>
-
 
             </div>
 
