@@ -23,12 +23,12 @@ const SinglePost = (props) => {
                         <div className="flex justify-between items-center w-1/2">
 
                             <div className="w-1/3">
-                                <img className='rounded-full w-10' src={logo} alt="" />
+                                <img className='rounded-full w-16' src={logo} alt="" />
                             </div>
 
                             <div className="w-2/3">
-                                <h4 className='text-sm font-bold'>{author}</h4>
-                                <p className='text-sm'>{date}</p>
+                                <h4 className='text-lg font-bold'>{author}</h4>
+                                <p className='text-md'>{date}</p>
                             </div>
 
                         </div>

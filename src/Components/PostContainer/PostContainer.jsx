@@ -45,7 +45,7 @@ const PostContainer = () => {
 
                 <div className="md:w-2/3">
 
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-items-center">
+                    <div className="grid grid-cols-1  gap-4 justify-items-center">
 
                         {
                             posts.map(post=> <SinglePost
